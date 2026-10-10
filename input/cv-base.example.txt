@@ -1,0 +1,35 @@
+JANE Q. SAMPLE
+Manila, Philippines  |  jane.sample@example.com  |  0917 000 0000  |  LinkedIn
+
+PROFESSIONAL SUMMARY
+
+QA engineer with two years of experience in manual and automated testing of web applications. Writes clear test cases, reports defects with reproducible steps, and works with developers in Agile sprints.
+
+TECHNICAL SKILLS
+
+Manual Testing
+Functional, regression, smoke, UAT
+Automation
+Selenium WebDriver (Java)
+Bug Tracking
+Jira
+
+PROFESSIONAL EXPERIENCE
+
+QA Engineer
+Jan 2024 - Present
+Example Corp  -  Manila
+- Ran functional and regression tests each sprint on a web platform.
+- Logged defects in Jira with reproduction steps, environment details, and severity.
+- Maintained Selenium UI tests in Java as part of the CI pipeline.
+
+EDUCATION
+
+Bachelor of Science in Information Technology
+Example University  -  Manila, PH
+2023
+
+CERTIFICATIONS
+
+Example Certification
+Example Issuer  -  2024

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{NAME}} - {{POSITION}} Cover Letter</title>
+<style>
+@page{size:A4;margin:15mm 0 15mm 0}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:11pt;
+  color:#000;
+  line-height:1.5;
+  background:#f0f0f0;
+  display:flex;
+  justify-content:center;
+  padding:20px;
+}
+.letter{
+  width:210mm;
+  min-height:297mm;
+  background:#fff;
+  padding:0 42px 40px;
+}
+.header{text-align:center}
+.header h1{
+  font-size:26px;
+  font-weight:700;
+  color:#000;
+  margin-bottom:8px;
+}
+.contact{
+  font-size:14px;
+  color:#000;
+}
+.contact span{margin:0 5px}
+.header hr{
+  border:0;
+  border-top:1px solid #000;
+  margin:22px 0 28px;
+}
+.date{margin-bottom:18px}
+.greeting{margin-bottom:18px;font-weight:700}
+.letter p{margin-bottom:14px;text-align:justify}
+.closing{margin-top:22px}
+.closing .name{font-weight:700;margin-top:24px}
+.closing .contact-line{font-size:12px;color:#000;margin-top:4px}
+@media print{
+  body{background:#fff;padding:0}
+  .letter{margin:0;box-shadow:none;min-height:267mm}
+}
+</style>
+</head>
+<body>
+
+<div class="letter">
+
+  <header class="header">
+    <h1>{{NAME}}</h1>
+    <div class="contact">
+      {{LOCATION}} <span>|</span> {{EMAIL}} <span>|</span> {{PHONE}}
+    </div>
+    <hr>
+  </header>
+
+  <div class="date">{{DATE}}</div>
+
+  <div class="greeting">{{GREETING}}</div>
+
+{{PARAGRAPHS}}
+
+  <div class="closing">
+    <div>Sincerely,</div>
+    <div class="name">{{NAME}}</div>
+    <div class="contact-line">{{EMAIL}} | {{PHONE}}</div>
+  </div>
+
+</div>
+
+</body>
+</html>

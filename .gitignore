@@ -1,0 +1,25 @@
+# Personal data
+input/cv-base.txt
+cv-base.txt
+output/*
+!output/.gitkeep
+jobs/inbox/*
+jobs/done/*
+jobs/skipped/*
+jobs/seen.json
+jobs/linkedin_urls.txt
+.env
+
+# Not part of the shared tool
+portfolio/
+PRODUCT.md
+.impeccable/
+.playwright-mcp/
+.claude/settings.local.json
+cv-cl-agent
+cv-cl-optimizer.md
+humanizer.md
+file-name.md
+
+__pycache__/
+*.pyc
